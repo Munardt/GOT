@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ImageType } from 'src/models/enums/image-type';
+import { ImageType } from 'src/app/shared/models/enums/image-type';
 
 /** Serviço de busca de imagens, para que ao passar o nome da imagem,
  * o serviço retorne o caminho completo para a imagem.

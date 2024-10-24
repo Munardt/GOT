@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ImagesService } from '../../services/images/images.service';
-import { ImageType } from 'src/models/enums/image-type';
+import { ImageType } from 'src/app/shared/models/enums/image-type';
+import { ImagesService } from 'src/app/shared/services/images/images.service';
 
 /** Componente da Header do site */
 @Component({

@@ -1,10 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-
-import { MaterialModule } from '../../modules/material.module';
-import { HomeComponent } from './home.component';
-import { HomeRoute } from './home.routes';
+import { HomeComponent } from 'src/app/pages/home/home.component';
+import { HomeRoute } from 'src/app/pages/home/home.routes';
+import { MaterialModule } from 'src/app/shared/modules/material.module';
 
 @NgModule({
   declarations: [HomeComponent],
